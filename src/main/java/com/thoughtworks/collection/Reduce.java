@@ -16,7 +16,7 @@ public class Reduce {
     }
 
     public int getMaxValue() {
-        return arrayList.stream().reduce(0, Integer::max);
+        return arrayList.stream().reduce(null, Integer::max);
     }
 
     public int getLastOdd() {
